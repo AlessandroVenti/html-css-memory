@@ -9,3 +9,16 @@ body {
   background-color: lightblue;
   font-size: 50px;
 }
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.title {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 0.5%;
+}

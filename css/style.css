@@ -71,6 +71,10 @@ body {
   right:20px;
 }
 
+.text-image:hover {
+  color: purple;
+}
+
 .purple {
   color: #FF0080;
 }
@@ -96,10 +100,6 @@ body {
 
 .magic-box:hover .box-with-hover {
   display: block;
-}
-
-#orange {
-  color: orange;
 }
 
 .footer-text {

@@ -71,3 +71,24 @@ body {
   bottom: 5px;
   right:20px;
 }
+
+.box-with-hover {
+  margin-right: 5px;
+  display: none;
+  background-color: white;
+  width: 150px;
+  height: 170px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  position: relative;
+}
+
+.magic-box {
+  display: inline-block;
+}
+
+
+
+.magic-box:hover .box-with-hover {
+  display: block;
+}

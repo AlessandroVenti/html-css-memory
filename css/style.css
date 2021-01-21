@@ -65,11 +65,18 @@ body {
 }
 
 .text-image {
-  color: #FF0080;
   font-size: 25px;
   position: absolute;
   bottom: 5px;
   right:20px;
+}
+
+.purple {
+  color: #FF0080;
+}
+
+.orange {
+  color: orange;
 }
 
 .box-with-hover {
@@ -87,8 +94,10 @@ body {
   display: inline-block;
 }
 
-
-
 .magic-box:hover .box-with-hover {
   display: block;
+}
+
+#orange {
+  color: orange;
 }

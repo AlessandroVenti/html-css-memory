@@ -1,5 +1,5 @@
 * {
-  font-family: ‘Nerko One’, cursive;
+  font-family: 'Nerko One', cursive;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,8 +17,57 @@ body {
 
 .title {
   color: white;
-  font-size: 60px;
+  font-size: 70px;
   text-align: center;
   margin-top: 2%;
   margin-bottom: 0.5%;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.central {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.box {
+  margin-right: 5px;
+  display: inline-block;
+  width: 150px;
+  height: 170px;
+  background-image: url(../img/pattern.png);
+  background-size: 130%;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.box2 {
+  margin-right: 5px;
+  display: inline-block;
+  background-color: white;
+  width: 150px;
+  height: 170px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  position: relative;
+}
+
+.image-box {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+
+.text-image {
+  color: #FF0080;
+  font-size: 25px;
+  position: absolute;
+  bottom: 5px;
+  right:20px;
 }

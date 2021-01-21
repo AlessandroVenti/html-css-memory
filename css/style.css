@@ -101,3 +101,8 @@ body {
 #orange {
   color: orange;
 }
+
+.footer-text {
+  text-align: center;
+  font-size: 20px;
+}
